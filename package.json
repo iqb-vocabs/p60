@@ -1,0 +1,21 @@
+{
+  "name": "p60",
+  "version": "0.1.0",
+  "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "license": "CC0-1.0",
+  "description": "BT-Fragebögen",
+  "scripts": {
+    "validate": "validate-md-profile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqb-vocabs/p60.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iqb-vocabs/p60/issues"
+  },
+  "homepage": "https://github.com/iqb-vocabs/p60#readme",
+  "dependencies": {
+    "@iqb/validate-md-profile": "^0.5.1"
+  }
+}

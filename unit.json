@@ -1,0 +1,134 @@
+{
+  "id": "https://raw.githubusercontent.com/iqb-vocabs/p60/master/unit.json",
+  "label": [{
+    "lang": "de",
+    "value": "BT Fragebögen - Aufgabe"
+  }],
+  "groups": [
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Aufgabe"
+        }
+      ],
+      "entries": [
+        {
+          "id": "e2",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Konstrukt"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v87/cq/",
+            "allowMultipleValues": false,
+            "hideNumbering": true,
+            "maxLevel": 1
+          }
+        },
+        {
+          "id": "iqb_time_unit",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Aufgabenzeit"
+            }
+          ],
+          "type": "number",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        },
+        {
+          "id": "iqb_version",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Version"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "single"
+          }
+        },
+        {
+          "id": "e3",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Fragebogen"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v85/ee/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "iqb_copyright",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Quelle"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
+          "id": "e4",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Zuletzt genehmigt"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v37/zg/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "f5",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Schulstufe"
+            }
+          ],
+          "type": "vocabulary",
+          "parameters": {
+            "url": "https://w3id.org/kim/educationalLevel/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "iqb_transcript",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Transkript"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        }
+      ]
+    }
+  ]
+}

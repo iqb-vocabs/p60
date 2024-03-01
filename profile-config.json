@@ -1,0 +1,14 @@
+{
+  "id": "btfb",
+  "title": [
+    {
+      "lang": "de",
+      "value": "BT-Fragebögen"
+    }
+  ],
+  "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "profiles": [
+    "unit.json",
+    "item.json"
+  ]
+}
