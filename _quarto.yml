@@ -1,17 +1,17 @@
-project: 
+project:
   type: website
 
 website:
   site-url: https://iqb-vocabs.github.io/p60/
-  title: "IQB"
   favicon: favicon.ico
   page-navigation: true
   repo-url: https://github.com/iqb-vocabs/p60/
-  navbar: 
+  navbar:
     logo: IQB-Klein.png
     search: true
     left:
         - href: index.qmd
+          text: "BT-Fragebögen"
 
 format:
   html:
