@@ -12,6 +12,12 @@ website:
     left:
         - href: index.qmd
           text: "BT-Fragebögen"
+    right:
+        - icon: github
+          href: https://github.com/iqb-vocabs/p60
+          aria-label: Source Code
+
+lang: de
 
 format:
   html:
