@@ -1,11 +1,11 @@
 {
   "name": "p60",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "license": "CC0-1.0",
   "description": "BT-Fragebögen",
   "scripts": {
-    "validate": "validate-md-profile"
+    "validate": "validate-md-profile && validate-md-profile -md"
   },
   "repository": {
     "type": "git",

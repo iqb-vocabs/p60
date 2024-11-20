@@ -14,6 +14,19 @@
       ],
       "entries": [
         {
+          "id": "iqb_var_name",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Variablenbezeichnung"
+            }
+          ],
+          "type": "text",
+          "parameters": {
+            "format": "multiline"
+          }
+        },
+        {
           "id": "w1",
           "label": [
             {

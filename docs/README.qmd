@@ -1,4 +1,6 @@
-# BT-Fragebögen
+---
+title: BT-Fragebögen
+---
 
 ID of profile-store: `btfb`
 
@@ -8,7 +10,7 @@ Maintainer: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 
 2 Profile definiert:
 
-## Profil "BT Fragebögen - Aufgabe"
+# BT Fragebögen - Aufgabe
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p60/master/unit.json`
 
@@ -23,7 +25,9 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p60/master/unit.jso
 | Schulstufe | [Vokabular](https://w3id.org/kim/educationalLevel/) | url: 'https://w3id.org/kim/educationalLevel/', Einmalauswahl, Nummerierung unterdrückt | f5 |
 | Transkript | Text |Mehrzeilig, Sprache(n): de | iqb_transcript |
 
-## Profil "BT Fragebögen - Item"
+: {tbl-colwidths="[15,15,55,15]"}
+
+# BT Fragebögen - Item
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p60/master/item.json`
 
@@ -31,4 +35,6 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p60/master/item.jso
 | :--- | :---: | :--- | :---: |
 | Variablenbezeichnung | Text |Mehrzeilig, Sprache(n): de | iqb_var_name |
 | Konstrukt | [Vokabular](https://w3id.org/iqb/v87/cq/) | url: 'https://w3id.org/iqb/v87/cq/', Einmalauswahl, Nummerierung unterdrückt | w1 |
+
+: {tbl-colwidths="[15,15,55,15]"}
 
