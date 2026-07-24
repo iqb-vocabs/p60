@@ -1,9 +1,14 @@
 {
   "id": "https://raw.githubusercontent.com/iqb-vocabs/p60/master/item.json",
-  "label": [{
-    "lang": "de",
-    "value": "BT Fragebögen - Item"
-  }],
+  "label": [
+    {
+      "lang": "de",
+      "value": "BT Fragebögen - Item"
+    }
+  ],
+  "target": [
+    "ITEM"
+  ],
   "groups": [
     {
       "label": [
@@ -21,9 +26,9 @@
               "value": "Variablenbezeichnung"
             }
           ],
-          "type": "text",
+          "type": "TEXT",
           "parameters": {
-            "format": "multiline"
+            "format": "MULTILINE"
           }
         },
         {
@@ -34,7 +39,7 @@
               "value": "Konstrukt"
             }
           ],
-          "type": "vocabulary",
+          "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v87/cq/",
             "allowMultipleValues": false,
